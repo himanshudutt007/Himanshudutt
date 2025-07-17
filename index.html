@@ -1,25 +1,106 @@
+
 <!DOCTYPE html>
 <html lang="gu">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vishat Flowers</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishat Flowers</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff0f5;
+        }
+        header {
+            background-color: #ffc0cb;
+            text-align: center;
+            padding: 30px 10px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        header button {
+            background-color: #e75480;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            font-size: 1em;
+            margin-top: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        section {
+            padding: 30px 15px;
+            text-align: center;
+        }
+        .about {
+            background-color: #fff;
+            padding: 20px;
+        }
+        .services, .contact {
+            background-color: #ffe6f0;
+        }
+        .services .grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .services .grid div {
+            width: 150px;
+        }
+        .services img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #ffc0cb;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
 </head>
-<body style="text-align: center; font-family: sans-serif; background-color: #fff0f5;">
-  <h1>Vishat Flowers Décor</h1>
-  <p>તમારું ડિજિટલ ફૂલ દુકાનમાં સ્વાગત છે</p>
-  <h3>સેવાઓ:</h3>
-  <ul>
-    <li>વર્માલા</li>
-    <li>કાર ડેકોરેશન</li>
-    <li>બેબી શાવર</li>
-    <li>બર્થડે પાર્ટી</li>
-  </ul>
-  <h3>સંપર્ક કરો:</h3>
-  <p>
-    <a href="tel:+919904871209">📞 Call</a> <br>
-    <a href="https://wa.me/919904871209">💬 WhatsApp</a> <br>
-    <a href="https://www.instagram.com/vishat_flowers_decors" target="_blank">📷 Instagram</a>
-  </p>
+<body>
+    <header>
+        <h1>Welcome to Vishat Flowers</h1>
+        <button>Explore Our Flowers</button>
+    </header>
+
+    <section class="about">
+        <h2>અમારા વિષે માહિતી</h2>
+        <p>Vishat Flowers એ શ્રેષ્ઠ મજા અનુકૂળતાભર્યા કાર્ય કરી રહ્યું છે. ખૂશીના પ્રસંગોમાં મમળાવવાથી અમારાં હાથો ભરાય છે. પાઠવેલ ફોટાઓમાં નજરે પડે તે ડેકોરેશન ની સેવામાં ટક.</p>
+        <p>કસ્ટમ ડિઝાઇન ખાસ કરીને આપડાવેલોજે એ હમિ ભિખમારે પાયા સ્થાપાય છે.</p>
+        <img src="logo.png" alt="Vishat Flowers Logo" width="150">
+    </section>
+
+    <section class="services">
+        <h2>સેવાઓ</h2>
+        <div class="grid">
+            <div><img src="bridal.jpg" alt="Bridal"><p>Bridal Bouquets</p></div>
+            <div><img src="wedding.jpg" alt="Wedding"><p>Wedding</p></div>
+            <div><img src="mandap.jpg" alt="Mandap"><p>Mandap</p></div>
+            <div><img src="car.jpg" alt="Car"><p>Car Decoration</p></div>
+        </div>
+        <ul>
+            <li>Wedding Decoration</li>
+            <li>Bouquet Delivery</li>
+            <li>Mandap Setup</li>
+            <li>Custom Floral Designs</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>સંપર્ક</h2>
+        <p>📞 +123-456-7890</p>
+        <p>📱 <a href="https://wa.me/1234567890" target="_blank">WhatsApp</a></p>
+        <p>📷 <a href="https://www.instagram.com/vishat_flowers_decors" target="_blank">Instagram</a></p>
+    </section>
+
+    <footer>
+        <p>© Vishat Flowers 2025</p>
+    </footer>
 </body>
 </html>
